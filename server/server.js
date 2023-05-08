@@ -30,6 +30,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
+
 // For contact us email setup
 const contactEmail = nodemailer.createTransport({
   host: 'smtp.zoho.com',
