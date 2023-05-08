@@ -1,204 +1,198 @@
 .popup-window {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: var(--bg-darkblack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-darkblack);
 }
 
 .popup-container {
-    background-color: white;
-    border-radius: var(--cornertwnty);
-    padding: 34px;
-    max-width: 1000px;
-    position: relative;
-
+  background-color: white;
+  border-radius: var(--cornertwnty);
+  padding: 34px;
+  max-width: 1000px;
+  position: relative;
 }
 
 .popup-swirl {
-    width: 44px;
-    top: 34px;
-    left: 34px;
-    position: absolute;
+  width: 44px;
+  top: 34px;
+  left: 34px;
+  position: absolute;
 }
 
 .close {
-    font-family: 'visby-heavy';
-    font-size: 20px;
-    color: var(--brand-blue);
-    position: absolute;
-    top: 34px;
-    right: 34px;
+  font-family: "visby-heavy";
+  font-size: 20px;
+  color: var(--brand-blue);
+  position: absolute;
+  top: 34px;
+  right: 34px;
 }
 
 .close:hover {
-    color: black;
+  color: black;
 }
 
 .popup-section {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .donut-pic {
-    width: 50%;
-    display: flex;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .popup-info {
-    width: 50%;
-    padding-right: 10%;
+  width: 50%;
+  padding-right: 10%;
 }
 
 .popup-info h2 {
-    font-family: 'visby-regular';
-    line-height: 46px;
-    text-align: left;
+  font-family: "visby-regular";
+  line-height: 46px;
+  text-align: left;
 }
 
 .popup-p {
-    font-size: 18px;
-    font-family: 'visby-regular';
-    color: black;
-    text-align: left;
-    margin-bottom: 68px;
-    line-height: 26px;
-
+  font-size: 18px;
+  font-family: "visby-regular";
+  color: black;
+  text-align: left;
+  margin-bottom: 68px;
+  line-height: 26px;
 }
 
 .popup-footer {
-    display: flex;
+  display: flex;
 }
 
 .ingredients {
-    font-family: 'visby-heavy';
-    font-size: 22px;
-    padding-top: 5px;
+  font-family: "visby-heavy";
+  font-size: 22px;
+  padding-top: 5px;
 }
 
 .ingredients svg {
-    scale: 1.4;
-    fill: var(--brand-blue);
+  scale: 1.4;
+  fill: var(--brand-blue);
 }
 
 .popup-addtocart-box {
-    background-color: white;
-    border-radius: var(--cornertwnty);
-    padding-left: 40px;
-    display: flex;
-    align-items: center;
+  background-color: white;
+  border-radius: var(--cornertwnty);
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .popup-addtocart {
-    font-family: 'visby-heavy';
-    font-size: 24px;
-    color: black;
-    padding-right: 30px;
-    line-height: 40px;
+  font-family: "visby-heavy";
+  font-size: 24px;
+  color: black;
+  padding-right: 30px;
+  line-height: 40px;
 }
 
 .popup-btn {
-    background-color: var(--brand-blue);
-    border: 0px solid var(--brand-blue);
-    color: white;
-    width: 64px;
-    height: 64px;
-    border-radius: var(--cornertwnty);
+  background-color: var(--brand-blue);
+  border: 0px solid var(--brand-blue);
+  color: white;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--cornertwnty);
 }
 
 .popup-btn svg {
-    scale: 1.8;
+  scale: 1.8;
 }
 
 .popup-btn:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 .popup-footer {
-    display: flex;
-    width: 100%;
-    height: 104px;
-    background-color: #F4F4F4;
-    border-radius: var(--cornertwnty);
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-
+  display: flex;
+  width: 100%;
+  height: 104px;
+  background-color: #f4f4f4;
+  border-radius: var(--cornertwnty);
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .allergies {
-    font-family: 'visby-regular';
-    color: black;
-    padding-left: 10px;
+  font-family: "visby-regular";
+  color: black;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 720px) {
-    .popup-window {
-        display: block;
-    }
+  .popup-window {
+    display: block;
+  }
 
-    .popup-container {
-        padding: 20px;
-    }
+  .popup-container {
+    padding: 20px;
+  }
 
-    .popup-section {
-        display: block;
-        width: 100%;
-    }
+  .popup-section {
+    display: block;
+    width: 100%;
+  }
 
-    .donut-pic {
-        width: auto;
-        margin: auto;
-        padding-top: 10px;
-    }
+  .donut-pic {
+    width: auto;
+    margin: auto;
+    padding-top: 10px;
+  }
 
-    .popup-info {
-        width: 100%;
-        margin: auto;
-        padding: 0px 0px 20px 0px;
+  .popup-info {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+  }
 
-    }
+  .popup-info h2 {
+    font-size: 38px;
+    margin: 0px;
+    line-height: 36px;
+  }
 
-    .popup-info h2 {
-        font-size: 38px;
-        margin: 0px;
-        line-height: 36px;
-    }
+  .popup-p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
 
-    .popup-p {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 20px;
-    }
+  .popup-footer {
+    display: block;
+    height: auto;
+  }
 
-    .popup-footer {
-        display: block;
-        height: auto;
-    }
+  .ingredients {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .ingredients {
-        font-size: 16px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+  .popup-addtocart-box {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .popup-addtocart-box {
-
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .popup-addtocart {
-
-        font-size: 18px;
-        color: black;
-        padding-right: 0px;
-        line-height: 22px;
-    }
+  .popup-addtocart {
+    font-size: 18px;
+    color: black;
+    padding-right: 0px;
+    line-height: 22px;
+  }
 }

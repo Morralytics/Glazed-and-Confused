@@ -26,7 +26,7 @@ function CartItem(item) {
                     </div>
                     <div className="cart-selected-qty">
                         <div className="cart-item-qty-text">{item.donut.purchaseQuantity}</div>
-                        
+
                     </div>
                     <div className="cart-product-name">{item.donut.name}</div>
                 </div>

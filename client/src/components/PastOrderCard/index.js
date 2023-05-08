@@ -15,7 +15,7 @@ function PastOrderCard() {
     console.log(state)
 
     if (order.length > 0) {
-    orderNumber = order[0].order_id.length
+        orderNumber = order[0].order_id.length
     }
 
     useEffect(() => {
@@ -44,7 +44,7 @@ function PastOrderCard() {
                 <div className="account-divider"></div>
                 <ul className="account-order-items-list">
                     {state.order.map((donut) => (
-                        <PastOrderItem key={donut._id} name={donut.name} quantity={donut.purchaseQuantity}/>
+                        <PastOrderItem key={donut._id} name={donut.name} quantity={donut.purchaseQuantity} />
                     ))}
                 </ul>
                 <div className="account-divider"></div>
@@ -54,7 +54,7 @@ function PastOrderCard() {
                 </div>
                 <div className="account-divider"></div>
                 <Link to={'/cart'}>
-                    <p className='account-reorder'>REORDER</p> 
+                    <p className='account-reorder'>REORDER</p>
                 </Link>
             </div>
             <br></br>

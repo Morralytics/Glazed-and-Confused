@@ -16,14 +16,14 @@
 
 .flavors-title h1 {
   color: white;
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   padding-bottom: 14px;
   line-height: 54px;
   margin-left: 17%;
 }
 
 .flavors-span {
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   font-size: 28px;
   color: var(--brand-blue);
   margin-left: 17%;
@@ -46,7 +46,7 @@
   background-color: var(--bg-darkblack);
   border-radius: 0px 0px 20px 20px;
   color: white;
-  font-family: 'visby-regular';
+  font-family: "visby-regular";
   font-size: 20px;
   padding: 20px;
   justify-content: space-between;
@@ -95,7 +95,7 @@
 
 .cart-yourcart {
   color: white;
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   font-size: 24px;
   text-align: center;
 }
@@ -105,17 +105,16 @@
   border-bottom: 3px solid var(--brand-blue);
   margin-bottom: 20px;
   margin-top: 20px;
-
 }
 
 .flavors-pricing {
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   font-size: 20px;
   color: white;
 }
 
 .flavor-total {
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   font-size: 20px;
   color: white;
   margin-top: 20px;
@@ -126,12 +125,11 @@
 }
 
 .flavor-total-price {
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   color: var(--brand-blue);
   font-size: 24px;
   margin-bottom: 20px;
 }
-
 
 /*  -----empty cart----- */
 .cart-product-empty {
@@ -151,7 +149,6 @@
   background-color: white;
   border-radius: 0px 0px 0px 20px;
   padding: 20px;
-
 }
 
 .cart-checkout p {
@@ -170,7 +167,6 @@
   border-radius: var(--cornertwnty);
   padding: 20px;
   margin-bottom: 20px;
-
 }
 
 .cart-img {
@@ -180,7 +176,7 @@
 
 .product-name {
   min-width: 160px;
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   font-size: 18px;
   color: black;
   text-align: center;
@@ -189,12 +185,11 @@
 .quantity-delete-box {
   display: flex;
   justify-content: space-between;
-
 }
 
 .quantity {
   background-color: var(--brand-blue);
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   font-size: 20px;
   color: white;
   border-radius: var(--cornerten);
@@ -240,18 +235,15 @@ select:focus {
   left: 0px;
   display: none;
   z-index: 10;
-
 }
 
 .cart-delete-btn {
-  background-color: #EEEBEB;
+  background-color: #eeebeb;
   color: black;
   border-radius: var(--cornerten);
   border: none;
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   padding: 10px;
-
-
 }
 
 .cart-delete-btn:hover {
@@ -274,7 +266,6 @@ select:focus {
     display: block;
     width: 80%;
     margin: auto;
-
   }
 
   .flavors-title {

@@ -8,7 +8,7 @@ const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
 function CheckoutButton() {
   const stripe = useStripe();
-  
+
   const [state, dispatch] = useStoreContext();
   const [currentOrder, setCurrentOrder] = useState({});
   const { userOrders, order } = state;
@@ -39,7 +39,7 @@ function CheckoutButton() {
       //For deployment
       successUrl: 'https://glazed-and-confused-app.herokuapp.com/ThankYou',
       cancelUrl: 'https://glazed-and-confused-app.herokuapp.com/ThankYou',
-      
+
       //For local development
       // successUrl: 'http://localhost:3000/ThankYou',
       // cancelUrl: 'http://localhost:3000/ThankYou',

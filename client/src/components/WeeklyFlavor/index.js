@@ -9,12 +9,12 @@ const WeeklyFlavor = () => {
             <div className="new-flavor-box">
                 <img className="new-flavor-pic" src={rasDonut} />
                 <div className="new-flavor-info">
-                    <h2>Raspberry Rush</h2> 
-                        <p className="new-flavor-p">Get your taste buds in a frenzy with our new <br/>
-                            Raspberry Rush donut - it's like a party in your <br/>
-                            mouth, and everyone's invited!
-                        </p>
-                        <Link to={'/flavors'}> <button className="btn-lrg btn-white">SEE MORE</button></Link>
+                    <h2>Raspberry Rush</h2>
+                    <p className="new-flavor-p">Get your taste buds in a frenzy with our new <br />
+                        Raspberry Rush donut - it's like a party in your <br />
+                        mouth, and everyone's invited!
+                    </p>
+                    <Link to={'/flavors'}> <button className="btn-lrg btn-white">SEE MORE</button></Link>
                 </div>
             </div>
         </section>

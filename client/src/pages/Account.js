@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import PastOrderCard from '../components/PastOrderCard';
 import '../styles/login-register.css';
 import '../styles/app.css';

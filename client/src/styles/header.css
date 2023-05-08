@@ -1,308 +1,298 @@
 /*  links decoration - get rid of the undereline for links ---*/
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 body {
-    background-color: rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
 }
 
-
 nav {
-    display: flex;
-    justify-content: center;
-    height: 75px;
-    background-color: white;
-    filter: drop-shadow(0px 3px 9px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  background-color: white;
+  filter: drop-shadow(0px 3px 9px rgba(0, 0, 0, 0.25));
 }
 
 nav ul {
-    text-align: center;
-    margin: auto;
-    height: 75px;
+  text-align: center;
+  margin: auto;
+  height: 75px;
 }
 
 nav div {
-    position: absolute;
-    right: 0px;
-    height: 75px;
-    display: flex;
-    align-items: center;
+  position: absolute;
+  right: 0px;
+  height: 75px;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
-    max-width: 136px;
-    margin-bottom: -20px;
-    margin-top: 60px;
-    cursor: pointer;
-    transition: all .7s ease-out;
+  max-width: 136px;
+  margin-bottom: -20px;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: all 0.7s ease-out;
 }
 
 .header-logo:hover {
-    transform: rotate(360deg) scale(1.15);
-    /* transform: scale(1.5); */
+  transform: rotate(360deg) scale(1.15);
+  /* transform: scale(1.5); */
 }
 
 .mobile-logo {
-    display: none;
+  display: none;
 }
 
 /* ----nav list to the right side of page */
 .header nav {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'visby-extrabold';
+  text-align: center;
+  font-size: 18px;
+  font-family: "visby-extrabold";
 }
 
 .header ul {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 800px;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+  justify-content: space-between;
 }
 
 .navlink:visited {
-    color: black;
+  color: black;
 }
 
 .navlink:hover {
-    color: var(--brand-blue);
+  color: var(--brand-blue);
 }
 
-
 .loginlink {
-    color: var(--brand-blue);
-    margin-right: 20px;
-    font-size: 16px;
+  color: var(--brand-blue);
+  margin-right: 20px;
+  font-size: 16px;
 }
 
 .loginlink:hover {
-    color: black;
+  color: black;
 }
 
 /* ---- navigation list ---- */
 
 li {
-    list-style-type: none;
-
+  list-style-type: none;
 }
 
 .nav-btn {
-    background-color: white;
-    border: 2px solid var(--bg-darkblack);
-    border-radius: var(--cornerten);
-    line-height: 32px;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
-    cursor: pointer;
+  background-color: white;
+  border: 2px solid var(--bg-darkblack);
+  border-radius: var(--cornerten);
+  line-height: 32px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
-    background-color: var(--brand-blue);
-    color: white;
-    border: 2px solid var(--brand-blue);
+  background-color: var(--brand-blue);
+  color: white;
+  border: 2px solid var(--brand-blue);
 }
 
 .nav-cart {
-    background-color: var(--brand-blue);
-    border: 0px solid var(--brand-blue);
-    color: white;
-    width: 80px;
-    height: 75px;
+  background-color: var(--brand-blue);
+  border: 0px solid var(--brand-blue);
+  color: white;
+  width: 80px;
+  height: 75px;
 }
 
 .nav-cart svg {
-    scale: 1.6;
+  scale: 1.6;
 }
 
 .nav-cart:hover {
-    background-color: var(--bg-darkblack);
-    cursor: pointer;
+  background-color: var(--bg-darkblack);
+  cursor: pointer;
 }
 
 /*--- Mobile queries ---*/
 @media screen and (max-width: 1230px) {
-
-    .header ul {
-        width: 730px;
-    }
+  .header ul {
+    width: 730px;
+  }
 }
 
 @media screen and (max-width: 1180px) {
-    nav {
-        height: 60px;
-    }
+  nav {
+    height: 60px;
+  }
 
-    .header ul {
-        display: none;
-    }
+  .header ul {
+    display: none;
+  }
 
-    .loginlink {
-        display: none;
-    }
+  .loginlink {
+    display: none;
+  }
 
-    .nav-cart {
-        height: 60px;
-    }
+  .nav-cart {
+    height: 60px;
+  }
 
-    nav div {
-        height: 60px;
-    }
+  nav div {
+    height: 60px;
+  }
 
-    .mobile-logo {
-        display: block;
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        width: 140px;
-    }
-
+  .mobile-logo {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 140px;
+  }
 }
 
 /* --- mobile nav --- */
 .mobile-nav-box {
-    background-color: #ffffff;
-    width: 70px;
-    height: 60px;
-    position: absolute;
-    right: 80px;
-    top: 0px;
-    z-index: 20;
+  background-color: #ffffff;
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  right: 80px;
+  top: 0px;
+  z-index: 20;
 }
 
 #toggle {
-    display: none;
+  display: none;
 }
 
-
 .mobile-links ul {
-    display: block;
-    margin: auto;
-    padding: 0px;
-
+  display: block;
+  margin: auto;
+  padding: 0px;
 }
 
 /**
   Hamburger
 **/
 .hamburger {
-    position: absolute;
-    right: 13px;
-    height: 45px;
-    z-index: 5;
-    top: 6px;
-    cursor: pointer;
+  position: absolute;
+  right: 13px;
+  height: 45px;
+  z-index: 5;
+  top: 6px;
+  cursor: pointer;
 }
 
 .hamburger div {
-    position: relative;
-    width: 40px;
-    height: 4px;
-    border-radius: 3px;
-    background-color: var(--brand-blue);
-    margin-top: 8px;
-    transition: all 0.3s ease-in-out;
+  position: relative;
+  width: 40px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: var(--brand-blue);
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
 /**
 Nav Styles
 **/
 .nav-mobile {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-offblack);
-    top: -100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-out;
-    transform: scale(0);
-
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-offblack);
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  transform: scale(0);
 }
 
 .nav-wrapper {
-    position: relative;
-    overflow: hidden;
-    overflow-y: auto;
-    height: 100%;
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
 }
 
 .mobile-links {
-    text-align: left;
-    padding: 20px 60px 0px 60px;
+  text-align: left;
+  padding: 20px 60px 0px 60px;
 }
 
 .mobile-links a {
-    position: relative;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 2em;
-    display: inline-block;
-    margin-top: 30px;
-    transition: color 0.3s ease-in-out;
-    letter-spacing: 1px;
-    font-family: 'visby-heavy';
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 30px;
+  transition: color 0.3s ease-in-out;
+  letter-spacing: 1px;
+  font-family: "visby-heavy";
 }
 
 .mobile-links a:before {
-    content: '';
-    height: 0;
-    position: absolute;
-    width: 0.25em;
-    background-color: var(--brand-blue);
-    left: -0.5em;
-    transition: all 0.3s ease-in-out;
-    border-radius: var(--cornerten);
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0.25em;
+  background-color: var(--brand-blue);
+  left: -0.5em;
+  transition: all 0.3s ease-in-out;
+  border-radius: var(--cornerten);
 }
 
 .mobile-links a:hover {
-    color: white;
+  color: white;
 }
 
 .mobile-links a:hover:before {
-    height: 100%;
+  height: 100%;
 }
 
-
 .mobile-links .btn-blue {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 /**
 Animations
 **/
-#toggle:checked+.hamburger .top-bun {
-    transform: rotate(-45deg);
-    margin-top: 20px;
+#toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 20px;
 }
 
-#toggle:checked+.hamburger .bottom-bun {
-    opacity: 0;
-    transform: rotate(45deg);
+#toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg);
 }
 
-#toggle:checked+.hamburger .meat {
-    transform: rotate(45deg);
-    margin-top: -4px;
+#toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -4px;
 }
 
-#toggle:checked+.hamburger+.nav-mobile {
-    top: 0;
-    transform: scale(1);
+#toggle:checked + .hamburger + .nav-mobile {
+  top: 0;
+  transform: scale(1);
 }
 
-#toggle:checked+.hamburger {
-    position: fixed;
+#toggle:checked + .hamburger {
+  position: fixed;
 }
-
 
 @media screen and (min-width: 1181px) {
-    .mobile-nav-box {
-        display: none;
-    }
+  .mobile-nav-box {
+    display: none;
+  }
 }

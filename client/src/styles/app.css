@@ -1,45 +1,44 @@
 @font-face {
-  font-family: 'visby-regular';
-  src: url('../assets/VisbyRoundCF-Regular.woff') format('woff');
+  font-family: "visby-regular";
+  src: url("../assets/VisbyRoundCF-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'visby-demi';
-  src: url('../assets/VisbyRoundCF-DemiBold.woff') format('woff');
+  font-family: "visby-demi";
+  src: url("../assets/VisbyRoundCF-DemiBold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'visby-demi-ob';
-  src: url('../assets/VisbyRoundCF-DemiBoldOblique.woff') format('woff');
+  font-family: "visby-demi-ob";
+  src: url("../assets/VisbyRoundCF-DemiBoldOblique.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'visby-heavy';
-  src: url('../assets/VisbyRoundCF-Heavy.woff') format('woff');
+  font-family: "visby-heavy";
+  src: url("../assets/VisbyRoundCF-Heavy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'visby-heavy-ob';
-  src: url('../assets/VisbyRoundCF-HeavyOblique.woff') format('woff');
+  font-family: "visby-heavy-ob";
+  src: url("../assets/VisbyRoundCF-HeavyOblique.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'visby-extrabold';
-  src: url('../assets/VisbyRoundCF-ExtraBold.woff') format('woff');
+  font-family: "visby-extrabold";
+  src: url("../assets/VisbyRoundCF-ExtraBold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
 
 html {
   height: 100%;
@@ -59,32 +58,31 @@ img {
 
 h1 {
   font-size: 48px;
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   text-align: center;
   margin: 0px;
 }
 
 h2 {
   font-size: 48px;
-  font-family: 'visby-demi';
+  font-family: "visby-demi";
   text-align: center;
 }
 
 /*  links decoration - get rid of the undereline for links ---*/
 a {
   text-decoration: none;
-  transition: .1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
 
 div {
   box-sizing: border-box;
-  transition: .1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
 
 button {
-  transition: .1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
-
 
 /* ---variables---*/
 :root {
@@ -97,7 +95,7 @@ button {
 }
 
 .btn-lrg {
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   font-size: 22px;
   border-radius: var(--cornertwnty);
   line-height: 60px;
@@ -109,7 +107,7 @@ button {
 }
 
 .btn-small {
-  font-family: 'visby-heavy';
+  font-family: "visby-heavy";
   font-size: 22px;
   border-radius: var(--cornertwnty);
   line-height: 60px;

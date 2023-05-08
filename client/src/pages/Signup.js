@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 
 import { useMutation } from '@apollo/client';
 
-// Still need to create mutations
-// import {  } from '../utils/mutations'
-
 import Auth from '../utils/auth';
 
 const Signup = () => {
@@ -43,22 +40,19 @@ const Signup = () => {
 
     return (
         <>
-        <main>
-            <form onSubmit={handleFormSubmit}>
-                {/* Username */}
-                <input
-                    onChange={handleChange}
-                />
-                {/* Email */}
-                <input
-                    onChange={handleChange}
-                />
-                {/* Password */}
-                <input
-                    onChange={handleChange}
-                />
-            </form>
-        </main>
+            <main>
+                <form onSubmit={handleFormSubmit}>
+                    <input
+                        onChange={handleChange}
+                    />
+                    <input
+                        onChange={handleChange}
+                    />
+                    <input
+                        onChange={handleChange}
+                    />
+                </form>
+            </main>
         </>
     );
 };

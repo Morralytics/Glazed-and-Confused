@@ -77,12 +77,12 @@ const Header = () => {
           )}
         </div>
         <Link to={'/'}>
-        <div className="mobile-logo">
-          <img
-            src={logoMobile}
-            alt="logoPic"
-          ></img>
-        </div>
+          <div className="mobile-logo">
+            <img
+              src={logoMobile}
+              alt="logoPic"
+            ></img>
+          </div>
         </Link>
       </nav>
       <div className="mobile-nav-box">

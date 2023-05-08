@@ -81,7 +81,7 @@ function App() {
                 path='/thankyou'
                 element={<ThankYou />}
               />
-              <Route 
+              <Route
                 path='/account'
                 element={<Account />}
               />
