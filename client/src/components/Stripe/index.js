@@ -59,8 +59,8 @@ function CheckoutButton() {
       mode: 'payment',
 
       //For deployment
-      successUrl: 'https://glazed-and-confused.herokuapp.com/ThankYou',
-      cancelUrl: 'https://glazed-and-confused.herokuapp.com/ThankYou',
+      successUrl: 'https://glazed-and-confused-app.herokuapp.com/ThankYou',
+      cancelUrl: 'https://glazed-and-confused-app.herokuapp.com/ThankYou',
       
       //For local development
       // successUrl: 'http://localhost:3000/ThankYou',
